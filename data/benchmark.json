@@ -1,0 +1,11 @@
+{
+  "id": "unique_id",
+  "type": "factual | conceptual | numerical | synthesis | calibration",
+  "domain": "ai_ml | materials | general_science | cross_domain",
+  "question": "The question text",
+  "context": "a passage the model should use to answer (optional)",
+  "expected_answer": "The correct answer or key points",
+  "rubric": "What a good answer must contain (for LLM judge)",
+  "difficulty": "easy | medium | hard",
+  "source": "Where I got the ground truth from"
+}
