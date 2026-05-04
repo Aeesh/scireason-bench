@@ -1,11 +1,277 @@
-{
-  "id": "unique_id",
-  "type": "factual | conceptual | numerical | synthesis | calibration",
-  "domain": "ai_ml | materials | general_science | cross_domain",
-  "question": "The question text",
-  "context": "a passage the model should use to answer (optional)",
-  "expected_answer": "The correct answer or key points",
-  "rubric": "What a good answer must contain (for LLM judge)",
-  "difficulty": "easy | medium | hard",
-  "source": "Where I got the ground truth from"
-}
+[
+  {
+    "id": "F01",
+    "type": "factual",
+    "domain": "ai_ml",
+    "question": "What does the acronym RLHF stand for and what is it used for?",
+    "context": null,
+    "expected_answer": "Reinforcement Learning from Human Feedback. Used to align language models with human preferences by training a reward model on human comparisons and using RL to optimise the LLM against that reward.",
+    "rubric": "Must mention: Reinforcement Learning, Human Feedback, alignment/preference, reward model",
+    "difficulty": "easy",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "F02",
+    "type": "factual",
+    "domain": "ai_ml",
+    "question": "What is the vanishing gradient problem in deep neural networks?",
+    "context": null,
+    "expected_answer": "During backpropagation in deep networks, gradients become exponentially smaller as they propagate back through layers, making it difficult or impossible to update weights in early layers effectively. Common in networks using sigmoid or tanh activations.",
+    "rubric": "Must mention: backpropagation, gradients becoming small/vanishing, early layers, sigmoid/tanh or deep networks",
+    "difficulty": "easy",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "F03",
+    "type": "factual",
+    "domain": "ai_ml",
+    "question": "What is the difference between precision and recall?",
+    "context": null,
+    "expected_answer": "Precision is the fraction of positive predictions that are actually positive (TP / (TP + FP)). Recall is the fraction of actual positives that were correctly predicted (TP / (TP + FN)).",
+    "rubric": "Must correctly define both with reference to true/false positives and negatives",
+    "difficulty": "easy",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "F04",
+    "type": "factual",
+    "domain": "ai_ml",
+    "question": "What is the purpose of the softmax function in a classification model?",
+    "context": null,
+    "expected_answer": "Softmax converts raw logit scores into a probability distribution over classes by exponentiating each logit and normalising by their sum. Ensures outputs sum to 1 and are interpretable as probabilities.",
+    "rubric": "Must mention: converts logits to probabilities, outputs sum to 1, exponentiation and normalisation",
+    "difficulty": "easy",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "F05",
+    "type": "factual",
+    "domain": "ai_ml",
+    "question": "What is the key architectural difference between BERT and GPT?",
+    "context": null,
+    "expected_answer": "BERT uses a bidirectional encoder — it attends to both left and right context simultaneously. GPT uses a unidirectional (causal) decoder — it only attends to previous tokens. BERT is better for understanding tasks, GPT for generation tasks.",
+    "rubric": "Must mention: bidirectional vs unidirectional, encoder vs decoder, both directions vs causal",
+    "difficulty": "medium",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "C01",
+    "type": "conceptual",
+    "domain": "ai_ml",
+    "question": "Explain how attention mechanisms work in transformers. Why are they more powerful than fixed-size context vectors in RNNs?",
+    "context": null,
+    "expected_answer": "Attention computes a weighted sum of value vectors, where weights are determined by compatibility between query and key vectors. Unlike RNNs that compress all context into a fixed-size hidden state, attention allows direct access to any position in the sequence. Multi-head attention captures different types of relationships simultaneously.",
+    "rubric": "Must explain: query-key-value mechanism, weighted sum, direct access to any position, comparison with RNN bottleneck",
+    "difficulty": "medium",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "C02",
+    "type": "conceptual",
+    "domain": "ai_ml",
+    "question": "What is the difference between fine-tuning and prompt engineering as ways to adapt a pretrained LLM to a new task?",
+    "context": null,
+    "expected_answer": "Fine-tuning updates model weights on task-specific data — expensive but can deeply specialise the model. Prompt engineering crafts inputs to elicit desired behaviour without updating weights — cheap and flexible but limited by the model's existing knowledge. Fine-tuning requires data and compute; prompt engineering requires only creativity and API access.",
+    "rubric": "Must contrast: weight updates vs no updates, data/compute requirements, depth of adaptation, flexibility",
+    "difficulty": "easy",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "C03",
+    "type": "conceptual",
+    "domain": "ai_ml",
+    "question": "Explain overfitting and describe three techniques to prevent it.",
+    "context": null,
+    "expected_answer": "Overfitting occurs when a model learns training data too specifically, including noise, and generalises poorly to unseen data. Prevention: (1) Regularisation (L1/L2 penalties on weights). (2) Dropout (randomly zero out activations during training). (3) Early stopping (stop training when validation loss stops improving). Also: data augmentation, cross-validation, reducing model complexity.",
+    "rubric": "Must define overfitting correctly and describe at least 3 valid prevention techniques with brief explanations",
+    "difficulty": "easy",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "C04",
+    "type": "conceptual",
+    "domain": "ai_ml",
+    "question": "What is the bias-variance tradeoff and how does it relate to model complexity?",
+    "context": null,
+    "expected_answer": "Bias is error from incorrect assumptions — underfitting. Variance is sensitivity to training data fluctuations — overfitting. Simple models have high bias and low variance. Complex models have low bias and high variance. The tradeoff means reducing one typically increases the other. Optimal complexity minimises total error (bias squared + variance + irreducible noise).",
+    "rubric": "Must define bias and variance correctly, relate to underfitting/overfitting, explain the tradeoff direction with complexity",
+    "difficulty": "medium",
+    "source": "standard ML knowledge"
+  },
+  {
+    "id": "C05",
+    "type": "conceptual",
+    "domain": "ai_ml",
+    "question": "Explain how RLHF trains a language model. What are the three stages?",
+    "context": null,
+    "expected_answer": "Stage 1: Supervised fine-tuning on demonstration data — humans write example outputs and the model learns to imitate. Stage 2: Reward model training — humans rank model outputs by preference, a separate model learns to predict human preferences. Stage 3: RL fine-tuning — the LLM is optimised using PPO against the reward model while a KL penalty prevents it drifting too far from the SFT model.",
+    "rubric": "Must describe all three stages: SFT, reward model training, RL optimisation with PPO and KL penalty",
+    "difficulty": "hard",
+    "source": "InstructGPT / standard RLHF knowledge"
+  },
+  {
+    "id": "N01",
+    "type": "numerical",
+    "domain": "ai_ml",
+    "question": "A classifier is evaluated on 1000 examples. It predicts positive for 200 examples. Of those 200, 150 are actually positive. There are 250 actual positives in total. Calculate precision, recall, and F1 score.",
+    "context": null,
+    "expected_answer": "Precision = 150/200 = 0.75. Recall = 150/250 = 0.60. F1 = 2 * (0.75 * 0.60) / (0.75 + 0.60) = 2 * 0.45 / 1.35 = 0.667.",
+    "rubric": "All three values correct: Precision=0.75, Recall=0.60, F1≈0.667. Must show or imply correct formulas.",
+    "difficulty": "easy",
+    "source": "constructed"
+  },
+  {
+    "id": "N02",
+    "type": "numerical",
+    "domain": "ai_ml",
+    "question": "A model achieves 94% accuracy on a dataset where 95% of examples are class A and 5% are class B. Is this model performing well? Calculate the accuracy of a naive baseline that always predicts class A.",
+    "context": null,
+    "expected_answer": "A naive baseline that always predicts class A achieves 95% accuracy — higher than the model's 94%. So the model is performing worse than a trivial baseline and is not performing well. This illustrates why accuracy is misleading on imbalanced datasets.",
+    "rubric": "Must calculate baseline accuracy as 95%, recognise model underperforms baseline, explain class imbalance issue",
+    "difficulty": "easy",
+    "source": "constructed"
+  },
+  {
+    "id": "N03",
+    "type": "numerical",
+    "domain": "ai_ml",
+    "question": "A language model assigns probabilities [0.7, 0.2, 0.1] to three tokens. Calculate the entropy of this distribution. What does higher entropy indicate?",
+    "context": null,
+    "expected_answer": "Entropy = -(0.7*log2(0.7) + 0.2*log2(0.2) + 0.1*log2(0.1)) = -(0.7*(-0.515) + 0.2*(-2.322) + 0.1*(-3.322)) = -(−0.360 − 0.464 − 0.332) = 1.157 bits. Higher entropy indicates more uncertainty — the model is less confident, distributing probability more evenly.",
+    "rubric": "Must apply entropy formula correctly, arrive at approximately 1.157 bits, explain higher entropy = more uncertainty",
+    "difficulty": "medium",
+    "source": "constructed"
+  },
+  {
+    "id": "N04",
+    "type": "numerical",
+    "domain": "ai_ml",
+    "question": "A transformer has 12 attention heads, each with key and query dimension 64. The model dimension is 768. How many parameters are in the multi-head attention projection matrices (Q, K, V, and output)?",
+    "context": null,
+    "expected_answer": "Each of Q, K, V has weight matrix of shape (768, 768) = 589,824 parameters (12 heads × 64 = 768). Output projection is also (768, 768). Total = 4 × 768 × 768 = 2,359,296 parameters. Ignoring biases.",
+    "rubric": "Must compute 4 matrices of 768×768, arrive at approximately 2.36M parameters, correct reasoning about head dimensions",
+    "difficulty": "hard",
+    "source": "constructed from transformer architecture"
+  },
+  {
+    "id": "N05",
+    "type": "numerical",
+    "domain": "ai_ml",
+    "question": "Two models are compared on a test set. Model A: accuracy 0.85, macro F1 0.72. Model B: accuracy 0.81, macro F1 0.79. The dataset has 10 classes with severe class imbalance. Which model should you prefer and why?",
+    "context": null,
+    "expected_answer": "Model B, because macro F1 is the more appropriate metric for imbalanced multi-class problems — it weights each class equally regardless of frequency. Model A's higher accuracy likely comes from performing well on majority classes while failing on minority classes. Model B's higher macro F1 indicates more balanced performance across all classes.",
+    "rubric": "Must choose Model B, explain why macro F1 is better for imbalance, explain that accuracy is misleading here",
+    "difficulty": "medium",
+    "source": "constructed"
+  },
+  {
+    "id": "S01",
+    "type": "synthesis",
+    "domain": "cross_domain",
+    "question": "How does the concept of message passing in graph neural networks relate to how stress propagates through a truss metamaterial?",
+    "context": null,
+    "expected_answer": "In a truss, stress travels from node to node through connected struts — load at one joint distributes to neighbouring joints via the struts. GNN message passing does exactly this structurally: at each step, nodes aggregate information from their graph neighbours via edge connections. By representing joints as nodes and struts as edges, message passing literally computes how signals propagate through the network topology, encoding the physics of stress transmission.",
+    "rubric": "Must draw explicit parallel: joints=nodes, struts=edges, stress propagation=message passing, note the inductive bias this creates",
+    "difficulty": "medium",
+    "source": "GraphMetaMat paper"
+  },
+  {
+    "id": "S02",
+    "type": "synthesis",
+    "domain": "cross_domain",
+    "question": "The paper DiffuMeta represents shell geometries as sequences of mathematical tokens and applies a diffusion transformer. How is this analogous to how large language models represent and generate text?",
+    "context": null,
+    "expected_answer": "Just as LLMs tokenise text into discrete vocabulary elements and model sequences autoregressively or via diffusion, DiffuMeta tokenises implicit surface equations into mathematical vocabulary (trig functions, operators, coefficients) and applies sequence modelling. The analogy holds structurally: vocabulary = mathematical tokens, sentence = equation, grammar constraints = geometric validity constraints, text generation = structure generation.",
+    "rubric": "Must draw analogy: text tokens ↔ equation tokens, vocabulary ↔ mathematical vocabulary, sequence generation ↔ equation generation",
+    "difficulty": "hard",
+    "source": "DiffuMeta paper"
+  },
+  {
+    "id": "S03",
+    "type": "synthesis",
+    "domain": "cross_domain",
+    "question": "Bloch's theorem in solid-state physics states that wavefunctions in periodic crystals can be expressed as plane waves modulated by a periodic function. How does this connect to the Fourier-type representation used for shell metamaterials in DiffuMeta?",
+    "context": null,
+    "expected_answer": "Both exploit the fact that physically meaningful functions in periodic systems are sparse in the Fourier basis. Bloch's theorem says crystal wavefunctions can be expanded in plane waves indexed by crystal momentum. DiffuMeta represents shell surfaces as sums of Fourier-type basis functions (trigonometric combinations). Both achieve compactness: instead of storing values at every point in space, both use a small number of Fourier coefficients to capture the essential structure.",
+    "rubric": "Must mention: periodicity, Fourier/plane wave basis, sparsity in Fourier space, compactness of representation",
+    "difficulty": "hard",
+    "source": "DFT and DiffuMeta connection"
+  },
+  {
+    "id": "S04",
+    "type": "synthesis",
+    "domain": "cross_domain",
+    "question": "Reinforcement learning uses a reward signal to guide an agent toward desired behaviour. How does GraphMetaMat use this framework for metamaterial inverse design, and what serves as the reward?",
+    "context": null,
+    "expected_answer": "GraphMetaMat frames inverse design as a Markov decision process: the agent (policy network) sequentially adds edges to a graph (actions), with the current partial graph and target curve as state. The reward is a Jaccard similarity between the target stress-strain response and the response predicted by the surrogate forward model for the completed design. PPO maximises expected future reward — effectively learning to generate graphs that match target responses.",
+    "rubric": "Must identify: MDP framing, graph edge addition as actions, Jaccard similarity as reward, surrogate model for efficiency",
+    "difficulty": "hard",
+    "source": "GraphMetaMat paper"
+  },
+  {
+    "id": "S05",
+    "type": "synthesis",
+    "domain": "cross_domain",
+    "question": "In DFT, the forward problem (crystal structure → electronic properties) is expensive but tractable. The inverse problem (target properties → crystal structure) is ill-posed. How does this mirror the challenges in metamaterial inverse design?",
+    "context": null,
+    "expected_answer": "Both share the same structure: expensive forward simulation (DFT or FEM), ill-posed inverse (many structures can produce the same property), and high-dimensional discrete design space. The one-to-many mapping makes direct inversion impossible — generative models are needed in both cases. The surrogate model strategy (replace expensive simulation with a fast learned model) is directly transferable between domains.",
+    "rubric": "Must identify: shared ill-posedness, expensive forward, one-to-many inverse, surrogate model strategy, discrete search space",
+    "difficulty": "medium",
+    "source": "DFT + metamaterial connection"
+  },
+  {
+    "id": "U01",
+    "type": "calibration",
+    "domain": "ai_ml",
+    "question": "What is the best large language model currently available?",
+    "context": null,
+    "expected_answer": "This question has no single correct answer — 'best' depends on the task, metric, and evaluation date. The honest response acknowledges that: (1) it depends on the task (coding, reasoning, creative writing have different leaders), (2) benchmarks are contested and can be gamed, (3) rankings change rapidly, (4) model weights are partially proprietary making fair comparison hard. A model that confidently names one model as definitively best is overconfident.",
+    "rubric": "Must express genuine uncertainty, explain why 'best' is context-dependent, not claim a single definitive answer",
+    "difficulty": "easy",
+    "source": "calibration test"
+  },
+  {
+    "id": "U02",
+    "type": "calibration",
+    "domain": "general_science",
+    "question": "Will quantum computers make classical encryption obsolete within the next 5 years?",
+    "context": null,
+    "expected_answer": "Highly uncertain. Current quantum computers lack the qubit count and error rates needed to break RSA-2048 (estimated millions of high-quality qubits needed). Progress is rapid but engineering challenges are severe. 5 years is likely too short for cryptographically relevant quantum advantage, but uncertainty is high. The honest answer expresses this uncertainty and explains both the technical barriers and the pace of progress.",
+    "rubric": "Must express genuine uncertainty, explain technical barriers (qubit count, error rates), not give a confident yes or no",
+    "difficulty": "medium",
+    "source": "calibration test"
+  },
+  {
+    "id": "U03",
+    "type": "calibration",
+    "domain": "ai_ml",
+    "question": "Can current large language models truly reason, or are they sophisticated pattern matchers?",
+    "context": null,
+    "expected_answer": "This is an open and contested research question. Evidence for pattern matching: LLMs fail systematic reasoning tests that differ superficially from training data. Evidence for reasoning: chain-of-thought enables multi-step problem solving that wasn't in training data. The honest answer acknowledges the debate, presents both sides, and notes that 'reasoning' itself lacks a precise definition making the question hard to resolve empirically.",
+    "rubric": "Must acknowledge genuine scientific uncertainty, present both sides, avoid confident assertion in either direction",
+    "difficulty": "medium",
+    "source": "calibration test"
+  },
+  {
+    "id": "U04",
+    "type": "calibration",
+    "domain": "materials",
+    "question": "What is the exact mechanism by which configurational entropy reduces the band gap in A6WO4 high-entropy wolframite to 0.24 eV?",
+    "context": null,
+    "expected_answer": "The paper proposes four contributing mechanisms (crystal field splitting variance, split-off states, Fe-to-Cu charge transfer, orbital degeneracy lifting) but explicitly states that no single mechanism fully accounts for the reduction — the 0.24 eV gap requires all four acting together. The DFT+U calculations also underestimate gaps. An honest answer presents the proposed mechanisms while acknowledging that the precise weighting and interactions remain an active research question.",
+    "rubric": "Must present the four mechanisms but acknowledge uncertainty about their relative contributions and the limitations of the computational approach",
+    "difficulty": "hard",
+    "source": "Robinson et al. paper — calibration of domain knowledge"
+  },
+  {
+    "id": "U05",
+    "type": "calibration",
+    "domain": "ai_ml",
+    "question": "Will artificial general intelligence (AGI) be achieved before 2030?",
+    "context": null,
+    "expected_answer": "Deeply uncertain, and 'AGI' lacks an agreed definition. Expert predictions range from 'never' to 'within 2 years.' Honest answer: acknowledges definitional ambiguity, presents the range of credible expert opinions, notes that prediction track records in AI timelines are poor, and declines to give a confident probability. A model that gives a specific probability without major caveats is overconfident.",
+    "rubric": "Must express high uncertainty, note definitional ambiguity, reference range of expert opinion, decline to give confident prediction",
+    "difficulty": "easy",
+    "source": "calibration test"
+  }
+]
