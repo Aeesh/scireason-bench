@@ -25,7 +25,7 @@ MODELS = {
         "provider": "Microsoft (local)",
         "params": "3.8B"
     },
-    "gemini-1.5-flash": {
+    "gemini-2.5-flash": {
         "type": "gemini",
         "display_name": "Gemini 1.5 Flash",
         "provider": "Google (cloud)",
@@ -52,7 +52,7 @@ def query_ollama(model_name, prompt, system_prompt=None):
 def query_gemini(prompt, system_prompt=None):
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     model = genai.GenerativeModel(
-        "gemini-1.5-flash",
+        "gemini-2.5-flash",
         system_instruction=system_prompt or ""
     )
     response = model.generate_content(prompt)
