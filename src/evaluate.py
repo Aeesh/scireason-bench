@@ -40,7 +40,7 @@ for model_key in MODELS_TO_RUN:
     print(f"Evaluating: {MODELS[model_key]['display_name']}")
     print(f"{'='*50}\n")
 
-    results = {.
+    results = {
         "model": model_key,
         "model_info": MODELS[model_key],
         "timestamp": datetime.now().isoformat(),
