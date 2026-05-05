@@ -40,8 +40,10 @@ def query_ollama(model_name, prompt, system_prompt=None):
     if system_prompt:
         messages.append({"role": "system", "content": system_prompt})
 
-        response = ollama.chat(model=model_name, messages=messages)
-        return response["message"]["content"]
+    messages.append({"role": "user", "content": prompt})
+
+    response = ollama.chat(model=model_name, messages=messages)
+    return response["message"]["content"]
 
 
 # Function to query Gemini models with optional system prompt.
