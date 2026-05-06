@@ -62,7 +62,7 @@ Evaluate this response and return a JSON score."""
 ####### Score all model responses #######
 model_files = [f for f in os.listdir(RESULTS_DIR) if f.endswith("_responses.json")]
 
-for filename in model_files
+for filename in model_files:
     model_key = filename.replace("_responses.json", "")
     print(f"\nScoring: {model_key}")
 
@@ -80,8 +80,8 @@ for filename in model_files
             question_type=item["type"]
         )
 
-        item["score"] = judgment["score"]
-        item["score_reasoning"] = judgment["reasoning"]
+        item["score"] = judgement["score"]
+        item["score_reasoning"] = judgement["reasoning"]
         time.sleep(5)  # rate limit
 
     # Save scored results
