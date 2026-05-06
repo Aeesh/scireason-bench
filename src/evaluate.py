@@ -12,7 +12,7 @@ RESULTS_DIR = "results/raw"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 # List of models to evaluate.
-MODELS_TO_RUN = ["llama3.2", "mistral", "phi3", "gemini-2.5-flash"]
+MODELS_TO_RUN = ["llama3.2", "mistral", "phi3", "gemini-3.1-flash-lite-preview"]
 
 SYSTEM_PROMPT = """You are a knowledgeable assistant answering questions about
 AI, machine learning, and materials science. Answer accurately and concisely.

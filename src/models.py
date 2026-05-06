@@ -1,7 +1,8 @@
 import os
 import time
 from dotenv import load_dotenv
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 import ollama
 
 load_dotenv()
@@ -25,9 +26,9 @@ MODELS = {
         "provider": "Microsoft (local)",
         "params": "3.8B"
     },
-    "gemini-2.5-flash": {
+    "gemini-3.1-flash-lite-preview": {
         "type": "gemini",
-        "display_name": "Gemini 1.5 Flash",
+        "display_name": "Gemini 3.1 Flash Lite Preview",
         "provider": "Google (cloud)",
         "params": "unknown"
     }
@@ -49,13 +50,18 @@ def query_ollama(model_name, prompt, system_prompt=None):
 # Function to query Gemini models with optional system prompt.
 # Configures the API key, creates a generative model instance, and generates content based on the prompt.
 # Returns the response text.
-def query_gemini(prompt, system_prompt=None):
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel(
-        "gemini-2.5-flash",
+def query_gemini(prompt, system_prompt=None, model_name="gemini-3.1-flash-lite-preview"):
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
+    config = types.GenerateContentConfig(
         system_instruction=system_prompt or ""
     )
-    response = model.generate_content(prompt)
+
+    response = client.models.generate_content(
+        model=model_name,
+        contents=prompt,
+        config=config
+    )
     return response.text
 
 
@@ -69,7 +75,7 @@ def query_model(model_key, prompt, system_prompt=None, retries=3):
             if config["type"] == "ollama":
                 return query_ollama(model_key, prompt, system_prompt)
             elif config["type"] == "gemini":
-                time.sleep(1)  # respect rate limits
+                time.sleep(4.5)  # throttle for ~15 RPM
                 return query_gemini(prompt, system_prompt)
         except Exception as e:
             if attempt == retries - 1:
