@@ -82,7 +82,7 @@ for filename in model_files
 
         item["score"] = judgment["score"]
         item["score_reasoning"] = judgment["reasoning"]
-        time.sleep(0.5)  # rate limit
+        time.sleep(5)  # rate limit
 
     # Save scored results
     output_path = f"{SCORED_DIR}/{model_key}_scored.json"
