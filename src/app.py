@@ -31,6 +31,7 @@ with st.sidebar:
         "A structured benchmark evaluating **4 LLMs** across **5 question types** "
         "covering AI/ML and scientific reasoning."
     )
+    st.markdown("[💻 GitHub](https://github.com/Aeesh/scireason-bench)")
     st.markdown("---")
     st.markdown("**Models evaluated**")
     st.markdown("- Llama 3.2 3B (Meta, local)")
