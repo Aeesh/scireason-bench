@@ -1,0 +1,5 @@
+model,Mean Score %,Std Dev,Questions Scored
+Gemini 3.1 Flash Lite Preview,95.0,16.67,100
+Llama 3.2 3B,58.0,32.0,100
+Mistral 7B,60.67,31.2,100
+Phi-3 Mini,65.67,32.64,100

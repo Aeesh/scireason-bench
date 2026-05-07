@@ -1,0 +1,401 @@
+model,model_key,params,provider,question_id,type,domain,difficulty,score,score_pct,latency
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F01,factual,ai_ml,easy,3,100.0,18.830721616744995
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F02,factual,ai_ml,easy,3,100.0,16.415058374404907
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F03,factual,ai_ml,easy,3,100.0,7.914015769958496
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F04,factual,ai_ml,easy,3,100.0,23.86108660697937
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F05,factual,ai_ml,medium,3,100.0,36.56716704368591
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F06,factual,ai_ml,medium,3,100.0,43.51258182525635
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F07,factual,ai_ml,easy,3,100.0,26.192718982696533
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F08,factual,ai_ml,easy,3,100.0,21.890383005142212
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F09,factual,ai_ml,medium,3,100.0,24.032384157180786
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F10,factual,ai_ml,easy,3,100.0,15.351763725280762
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F11,factual,materials,easy,3,100.0,29.28052020072937
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F12,factual,materials,hard,3,100.0,15.14022707939148
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F13,factual,materials,medium,3,100.0,17.78179907798767
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F14,factual,ai_ml,medium,3,100.0,8.559271574020386
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F15,factual,ai_ml,easy,3,100.0,25.006616830825806
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F16,factual,ai_ml,medium,2,66.66666666666666,19.69890809059143
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F17,factual,materials,hard,3,100.0,17.655603885650635
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F18,factual,ai_ml,hard,3,100.0,13.515286445617676
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F19,factual,ai_ml,medium,3,100.0,22.47120499610901
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),F20,factual,general_science,easy,3,100.0,17.969747304916382
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C01,conceptual,ai_ml,medium,3,100.0,9.139561891555786
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C02,conceptual,ai_ml,easy,3,100.0,9.547420740127563
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C03,conceptual,ai_ml,easy,3,100.0,8.838821172714233
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C04,conceptual,ai_ml,medium,2,66.66666666666666,10.047636270523071
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C05,conceptual,ai_ml,hard,3,100.0,19.172441244125366
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C06,conceptual,ai_ml,medium,3,100.0,27.338929176330566
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C07,conceptual,materials,hard,2,66.66666666666666,17.100176572799683
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C08,conceptual,ai_ml,medium,3,100.0,15.637046575546265
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C09,conceptual,ai_ml,medium,3,100.0,23.388405561447144
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C10,conceptual,cross_domain,medium,3,100.0,8.588406324386597
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C11,conceptual,ai_ml,hard,3,100.0,26.765053510665894
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C12,conceptual,ai_ml,medium,3,100.0,14.641956329345703
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C13,conceptual,general_science,easy,3,100.0,16.786306858062744
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C14,conceptual,ai_ml,medium,3,100.0,8.745381355285645
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C15,conceptual,ai_ml,hard,3,100.0,24.947206735610962
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C16,conceptual,cross_domain,medium,3,100.0,24.110950231552124
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C17,conceptual,ai_ml,medium,3,100.0,22.27016854286194
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C18,conceptual,ai_ml,medium,3,100.0,13.294155359268188
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C19,conceptual,materials,hard,3,100.0,9.492639541625977
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),C20,conceptual,ai_ml,medium,3,100.0,16.54642152786255
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N01,numerical,ai_ml,easy,3,100.0,6.933169364929199
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N02,numerical,ai_ml,easy,3,100.0,14.298836708068848
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N03,numerical,ai_ml,medium,3,100.0,8.004775285720825
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N04,numerical,ai_ml,hard,3,100.0,23.188570499420166
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N05,numerical,ai_ml,medium,3,100.0,19.093067169189453
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N06,numerical,general_science,easy,3,100.0,19.956560134887695
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N07,numerical,ai_ml,medium,3,100.0,27.14282989501953
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N08,numerical,ai_ml,medium,2,66.66666666666666,14.278024435043335
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N09,numerical,ai_ml,easy,3,100.0,18.059682607650757
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N10,numerical,ai_ml,easy,3,100.0,23.137750387191772
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N11,numerical,ai_ml,easy,2,66.66666666666666,28.76958203315735
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N12,numerical,general_science,hard,3,100.0,12.517951488494873
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N13,numerical,ai_ml,easy,3,100.0,34.07789325714111
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N14,numerical,ai_ml,medium,3,100.0,14.484721183776855
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N15,numerical,general_science,hard,3,100.0,22.243538856506348
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N16,numerical,ai_ml,medium,3,100.0,16.8151798248291
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N17,numerical,ai_ml,easy,3,100.0,8.25348973274231
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N18,numerical,ai_ml,hard,3,100.0,16.64212727546692
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N19,numerical,ai_ml,easy,3,100.0,14.66299057006836
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),N20,numerical,ai_ml,medium,2,66.66666666666666,14.492816686630249
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S01,synthesis,cross_domain,medium,3,100.0,27.066813230514526
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S02,synthesis,cross_domain,hard,3,100.0,15.0847008228302
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S03,synthesis,cross_domain,hard,3,100.0,23.684247732162476
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S04,synthesis,cross_domain,hard,0,0.0,7.699343919754028
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S05,synthesis,cross_domain,medium,3,100.0,9.336207151412964
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S06,synthesis,cross_domain,hard,3,100.0,27.813443660736084
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S07,synthesis,cross_domain,hard,3,100.0,16.027057886123657
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S08,synthesis,cross_domain,medium,3,100.0,22.116236448287964
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S09,synthesis,cross_domain,hard,3,100.0,23.182838916778564
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S10,synthesis,cross_domain,easy,3,100.0,25.88808512687683
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S11,synthesis,cross_domain,medium,3,100.0,10.541170597076416
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S12,synthesis,cross_domain,medium,3,100.0,29.26738953590393
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S13,synthesis,cross_domain,hard,3,100.0,12.473497867584229
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S14,synthesis,cross_domain,medium,3,100.0,9.472941637039185
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S15,synthesis,cross_domain,hard,3,100.0,24.663166284561157
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S16,synthesis,cross_domain,hard,3,100.0,24.122645139694214
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S17,synthesis,cross_domain,medium,3,100.0,28.847453355789185
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S18,synthesis,cross_domain,hard,3,100.0,20.275271892547607
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S19,synthesis,cross_domain,medium,3,100.0,15.928998947143555
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),S20,synthesis,cross_domain,medium,3,100.0,32.43020486831665
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U01,calibration,ai_ml,easy,3,100.0,19.957375049591064
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U02,calibration,general_science,medium,1,33.33333333333333,12.6443772315979
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U03,calibration,ai_ml,medium,3,100.0,9.526308059692383
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U04,calibration,materials,hard,1,33.33333333333333,22.265339374542236
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U05,calibration,ai_ml,easy,3,100.0,34.13257694244385
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U06,calibration,ai_ml,medium,3,100.0,14.136545419692993
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U07,calibration,general_science,medium,3,100.0,25.534913063049316
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U08,calibration,ai_ml,easy,3,100.0,8.52530288696289
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U09,calibration,materials,hard,3,100.0,24.27186417579651
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U10,calibration,ai_ml,easy,3,100.0,14.26223611831665
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U11,calibration,ai_ml,medium,1,33.33333333333333,27.81846594810486
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U12,calibration,general_science,medium,3,100.0,20.049548387527466
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U13,calibration,ai_ml,medium,3,100.0,19.87143874168396
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U14,calibration,ai_ml,medium,3,100.0,14.999881029129028
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U15,calibration,materials,hard,3,100.0,18.37458634376526
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U16,calibration,ai_ml,medium,3,100.0,29.180173635482788
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U17,calibration,general_science,medium,3,100.0,16.5947904586792
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U18,calibration,ai_ml,easy,3,100.0,31.335122108459473
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U19,calibration,ai_ml,medium,3,100.0,9.201231956481934
+Gemini 3.1 Flash Lite Preview,gemini-3.1-flash-lite-preview,unknown,Google (cloud),U20,calibration,ai_ml,medium,3,100.0,8.255895853042603
+Llama 3.2 3B,llama3.2,3B,Meta (local),F01,factual,ai_ml,easy,1,33.33333333333333,16.956466913223267
+Llama 3.2 3B,llama3.2,3B,Meta (local),F02,factual,ai_ml,easy,2,66.66666666666666,17.99937677383423
+Llama 3.2 3B,llama3.2,3B,Meta (local),F03,factual,ai_ml,easy,3,100.0,11.306843996047974
+Llama 3.2 3B,llama3.2,3B,Meta (local),F04,factual,ai_ml,easy,3,100.0,6.175859451293945
+Llama 3.2 3B,llama3.2,3B,Meta (local),F05,factual,ai_ml,medium,1,33.33333333333333,11.579277753829956
+Llama 3.2 3B,llama3.2,3B,Meta (local),F06,factual,ai_ml,medium,2,66.66666666666666,11.345569610595703
+Llama 3.2 3B,llama3.2,3B,Meta (local),F07,factual,ai_ml,easy,3,100.0,7.587508201599121
+Llama 3.2 3B,llama3.2,3B,Meta (local),F08,factual,ai_ml,easy,0,0.0,3.172938346862793
+Llama 3.2 3B,llama3.2,3B,Meta (local),F09,factual,ai_ml,medium,2,66.66666666666666,12.02551794052124
+Llama 3.2 3B,llama3.2,3B,Meta (local),F10,factual,ai_ml,easy,3,100.0,14.853814840316772
+Llama 3.2 3B,llama3.2,3B,Meta (local),F11,factual,materials,easy,3,100.0,7.22019624710083
+Llama 3.2 3B,llama3.2,3B,Meta (local),F12,factual,materials,hard,2,66.66666666666666,11.394429445266724
+Llama 3.2 3B,llama3.2,3B,Meta (local),F13,factual,materials,medium,1,33.33333333333333,4.951981544494629
+Llama 3.2 3B,llama3.2,3B,Meta (local),F14,factual,ai_ml,medium,2,66.66666666666666,14.867161273956299
+Llama 3.2 3B,llama3.2,3B,Meta (local),F15,factual,ai_ml,easy,1,33.33333333333333,12.11864423751831
+Llama 3.2 3B,llama3.2,3B,Meta (local),F16,factual,ai_ml,medium,1,33.33333333333333,6.848606824874878
+Llama 3.2 3B,llama3.2,3B,Meta (local),F17,factual,materials,hard,2,66.66666666666666,12.408861637115479
+Llama 3.2 3B,llama3.2,3B,Meta (local),F18,factual,ai_ml,hard,2,66.66666666666666,8.412956237792969
+Llama 3.2 3B,llama3.2,3B,Meta (local),F19,factual,ai_ml,medium,3,100.0,11.083205223083496
+Llama 3.2 3B,llama3.2,3B,Meta (local),F20,factual,general_science,easy,3,100.0,8.434143304824829
+Llama 3.2 3B,llama3.2,3B,Meta (local),C01,conceptual,ai_ml,medium,2,66.66666666666666,24.760668754577637
+Llama 3.2 3B,llama3.2,3B,Meta (local),C02,conceptual,ai_ml,easy,2,66.66666666666666,10.760289907455444
+Llama 3.2 3B,llama3.2,3B,Meta (local),C03,conceptual,ai_ml,easy,3,100.0,12.68075966835022
+Llama 3.2 3B,llama3.2,3B,Meta (local),C04,conceptual,ai_ml,medium,2,66.66666666666666,14.672133445739746
+Llama 3.2 3B,llama3.2,3B,Meta (local),C05,conceptual,ai_ml,hard,0,0.0,11.602473974227905
+Llama 3.2 3B,llama3.2,3B,Meta (local),C06,conceptual,ai_ml,medium,2,66.66666666666666,16.574666023254395
+Llama 3.2 3B,llama3.2,3B,Meta (local),C07,conceptual,materials,hard,1,33.33333333333333,8.509009838104248
+Llama 3.2 3B,llama3.2,3B,Meta (local),C08,conceptual,ai_ml,medium,2,66.66666666666666,11.071333169937134
+Llama 3.2 3B,llama3.2,3B,Meta (local),C09,conceptual,ai_ml,medium,2,66.66666666666666,21.844969987869263
+Llama 3.2 3B,llama3.2,3B,Meta (local),C10,conceptual,cross_domain,medium,2,66.66666666666666,19.97001576423645
+Llama 3.2 3B,llama3.2,3B,Meta (local),C11,conceptual,ai_ml,hard,2,66.66666666666666,13.419333219528198
+Llama 3.2 3B,llama3.2,3B,Meta (local),C12,conceptual,ai_ml,medium,1,33.33333333333333,12.226068258285522
+Llama 3.2 3B,llama3.2,3B,Meta (local),C13,conceptual,general_science,easy,3,100.0,11.74863314628601
+Llama 3.2 3B,llama3.2,3B,Meta (local),C14,conceptual,ai_ml,medium,1,33.33333333333333,11.623294830322266
+Llama 3.2 3B,llama3.2,3B,Meta (local),C15,conceptual,ai_ml,hard,1,33.33333333333333,18.968612670898438
+Llama 3.2 3B,llama3.2,3B,Meta (local),C16,conceptual,cross_domain,medium,2,66.66666666666666,16.407787322998047
+Llama 3.2 3B,llama3.2,3B,Meta (local),C17,conceptual,ai_ml,medium,2,66.66666666666666,18.303332567214966
+Llama 3.2 3B,llama3.2,3B,Meta (local),C18,conceptual,ai_ml,medium,1,33.33333333333333,10.451460361480713
+Llama 3.2 3B,llama3.2,3B,Meta (local),C19,conceptual,materials,hard,2,66.66666666666666,24.746710062026978
+Llama 3.2 3B,llama3.2,3B,Meta (local),C20,conceptual,ai_ml,medium,2,66.66666666666666,13.759100198745728
+Llama 3.2 3B,llama3.2,3B,Meta (local),N01,numerical,ai_ml,easy,1,33.33333333333333,17.895112991333008
+Llama 3.2 3B,llama3.2,3B,Meta (local),N02,numerical,ai_ml,easy,2,66.66666666666666,6.8432440757751465
+Llama 3.2 3B,llama3.2,3B,Meta (local),N03,numerical,ai_ml,medium,1,33.33333333333333,11.589913606643677
+Llama 3.2 3B,llama3.2,3B,Meta (local),N04,numerical,ai_ml,hard,1,33.33333333333333,33.97068381309509
+Llama 3.2 3B,llama3.2,3B,Meta (local),N05,numerical,ai_ml,medium,3,100.0,10.495517015457153
+Llama 3.2 3B,llama3.2,3B,Meta (local),N06,numerical,general_science,easy,1,33.33333333333333,5.837340354919434
+Llama 3.2 3B,llama3.2,3B,Meta (local),N07,numerical,ai_ml,medium,1,33.33333333333333,14.872799396514893
+Llama 3.2 3B,llama3.2,3B,Meta (local),N08,numerical,ai_ml,medium,2,66.66666666666666,10.527866125106812
+Llama 3.2 3B,llama3.2,3B,Meta (local),N09,numerical,ai_ml,easy,2,66.66666666666666,6.438126087188721
+Llama 3.2 3B,llama3.2,3B,Meta (local),N10,numerical,ai_ml,easy,0,0.0,4.272030830383301
+Llama 3.2 3B,llama3.2,3B,Meta (local),N11,numerical,ai_ml,easy,1,33.33333333333333,9.924729108810425
+Llama 3.2 3B,llama3.2,3B,Meta (local),N12,numerical,general_science,hard,1,33.33333333333333,16.49018931388855
+Llama 3.2 3B,llama3.2,3B,Meta (local),N13,numerical,ai_ml,easy,1,33.33333333333333,8.05289363861084
+Llama 3.2 3B,llama3.2,3B,Meta (local),N14,numerical,ai_ml,medium,0,0.0,4.376509189605713
+Llama 3.2 3B,llama3.2,3B,Meta (local),N15,numerical,general_science,hard,1,33.33333333333333,8.753366231918335
+Llama 3.2 3B,llama3.2,3B,Meta (local),N16,numerical,ai_ml,medium,3,100.0,9.555357456207275
+Llama 3.2 3B,llama3.2,3B,Meta (local),N17,numerical,ai_ml,easy,2,66.66666666666666,8.771775245666504
+Llama 3.2 3B,llama3.2,3B,Meta (local),N18,numerical,ai_ml,hard,0,0.0,27.136364221572876
+Llama 3.2 3B,llama3.2,3B,Meta (local),N19,numerical,ai_ml,easy,3,100.0,9.610371351242065
+Llama 3.2 3B,llama3.2,3B,Meta (local),N20,numerical,ai_ml,medium,1,33.33333333333333,4.378733396530151
+Llama 3.2 3B,llama3.2,3B,Meta (local),S01,synthesis,cross_domain,medium,0,0.0,14.865113496780396
+Llama 3.2 3B,llama3.2,3B,Meta (local),S02,synthesis,cross_domain,hard,1,33.33333333333333,7.182567358016968
+Llama 3.2 3B,llama3.2,3B,Meta (local),S03,synthesis,cross_domain,hard,0,0.0,5.95820164680481
+Llama 3.2 3B,llama3.2,3B,Meta (local),S04,synthesis,cross_domain,hard,0,0.0,10.437206745147705
+Llama 3.2 3B,llama3.2,3B,Meta (local),S05,synthesis,cross_domain,medium,2,66.66666666666666,16.150875329971313
+Llama 3.2 3B,llama3.2,3B,Meta (local),S06,synthesis,cross_domain,hard,3,100.0,14.823269605636597
+Llama 3.2 3B,llama3.2,3B,Meta (local),S07,synthesis,cross_domain,hard,1,33.33333333333333,14.488778352737427
+Llama 3.2 3B,llama3.2,3B,Meta (local),S08,synthesis,cross_domain,medium,1,33.33333333333333,17.517525911331177
+Llama 3.2 3B,llama3.2,3B,Meta (local),S09,synthesis,cross_domain,hard,3,100.0,13.33699917793274
+Llama 3.2 3B,llama3.2,3B,Meta (local),S10,synthesis,cross_domain,easy,2,66.66666666666666,9.955419063568115
+Llama 3.2 3B,llama3.2,3B,Meta (local),S11,synthesis,cross_domain,medium,2,66.66666666666666,17.255319118499756
+Llama 3.2 3B,llama3.2,3B,Meta (local),S12,synthesis,cross_domain,medium,2,66.66666666666666,16.633676528930664
+Llama 3.2 3B,llama3.2,3B,Meta (local),S13,synthesis,cross_domain,hard,2,66.66666666666666,18.141613245010376
+Llama 3.2 3B,llama3.2,3B,Meta (local),S14,synthesis,cross_domain,medium,1,33.33333333333333,13.489113330841064
+Llama 3.2 3B,llama3.2,3B,Meta (local),S15,synthesis,cross_domain,hard,2,66.66666666666666,6.714929103851318
+Llama 3.2 3B,llama3.2,3B,Meta (local),S16,synthesis,cross_domain,hard,2,66.66666666666666,14.874345064163208
+Llama 3.2 3B,llama3.2,3B,Meta (local),S17,synthesis,cross_domain,medium,0,0.0,10.048526287078857
+Llama 3.2 3B,llama3.2,3B,Meta (local),S18,synthesis,cross_domain,hard,0,0.0,3.1138272285461426
+Llama 3.2 3B,llama3.2,3B,Meta (local),S19,synthesis,cross_domain,medium,1,33.33333333333333,13.011566638946533
+Llama 3.2 3B,llama3.2,3B,Meta (local),S20,synthesis,cross_domain,medium,2,66.66666666666666,16.109667778015137
+Llama 3.2 3B,llama3.2,3B,Meta (local),U01,calibration,ai_ml,easy,1,33.33333333333333,13.835780382156372
+Llama 3.2 3B,llama3.2,3B,Meta (local),U02,calibration,general_science,medium,1,33.33333333333333,9.170167684555054
+Llama 3.2 3B,llama3.2,3B,Meta (local),U03,calibration,ai_ml,medium,2,66.66666666666666,10.38270902633667
+Llama 3.2 3B,llama3.2,3B,Meta (local),U04,calibration,materials,hard,3,100.0,7.2441699504852295
+Llama 3.2 3B,llama3.2,3B,Meta (local),U05,calibration,ai_ml,easy,3,100.0,7.956823110580444
+Llama 3.2 3B,llama3.2,3B,Meta (local),U06,calibration,ai_ml,medium,0,0.0,4.474388122558594
+Llama 3.2 3B,llama3.2,3B,Meta (local),U07,calibration,general_science,medium,3,100.0,12.979602336883545
+Llama 3.2 3B,llama3.2,3B,Meta (local),U08,calibration,ai_ml,easy,2,66.66666666666666,11.956645250320435
+Llama 3.2 3B,llama3.2,3B,Meta (local),U09,calibration,materials,hard,3,100.0,11.950270652770996
+Llama 3.2 3B,llama3.2,3B,Meta (local),U10,calibration,ai_ml,easy,3,100.0,2.4959752559661865
+Llama 3.2 3B,llama3.2,3B,Meta (local),U11,calibration,ai_ml,medium,3,100.0,13.268631935119629
+Llama 3.2 3B,llama3.2,3B,Meta (local),U12,calibration,general_science,medium,2,66.66666666666666,16.27418541908264
+Llama 3.2 3B,llama3.2,3B,Meta (local),U13,calibration,ai_ml,medium,3,100.0,18.059507369995117
+Llama 3.2 3B,llama3.2,3B,Meta (local),U14,calibration,ai_ml,medium,2,66.66666666666666,8.814733982086182
+Llama 3.2 3B,llama3.2,3B,Meta (local),U15,calibration,materials,hard,1,33.33333333333333,10.049840927124023
+Llama 3.2 3B,llama3.2,3B,Meta (local),U16,calibration,ai_ml,medium,1,33.33333333333333,9.40050220489502
+Llama 3.2 3B,llama3.2,3B,Meta (local),U17,calibration,general_science,medium,3,100.0,8.705979585647583
+Llama 3.2 3B,llama3.2,3B,Meta (local),U18,calibration,ai_ml,easy,3,100.0,2.7991840839385986
+Llama 3.2 3B,llama3.2,3B,Meta (local),U19,calibration,ai_ml,medium,3,100.0,14.269598960876465
+Llama 3.2 3B,llama3.2,3B,Meta (local),U20,calibration,ai_ml,medium,3,100.0,9.673130989074707
+Mistral 7B,mistral,7B,Mistral AI (local),F01,factual,ai_ml,easy,2,66.66666666666666,46.43711805343628
+Mistral 7B,mistral,7B,Mistral AI (local),F02,factual,ai_ml,easy,2,66.66666666666666,24.592974185943604
+Mistral 7B,mistral,7B,Mistral AI (local),F03,factual,ai_ml,easy,3,100.0,50.945048332214355
+Mistral 7B,mistral,7B,Mistral AI (local),F04,factual,ai_ml,easy,2,66.66666666666666,13.100269794464111
+Mistral 7B,mistral,7B,Mistral AI (local),F05,factual,ai_ml,medium,1,33.33333333333333,41.96332550048828
+Mistral 7B,mistral,7B,Mistral AI (local),F06,factual,ai_ml,medium,3,100.0,18.393327474594116
+Mistral 7B,mistral,7B,Mistral AI (local),F07,factual,ai_ml,easy,3,100.0,25.275814056396484
+Mistral 7B,mistral,7B,Mistral AI (local),F08,factual,ai_ml,easy,0,0.0,19.657235145568848
+Mistral 7B,mistral,7B,Mistral AI (local),F09,factual,ai_ml,medium,3,100.0,36.821044921875
+Mistral 7B,mistral,7B,Mistral AI (local),F10,factual,ai_ml,easy,3,100.0,37.47103929519653
+Mistral 7B,mistral,7B,Mistral AI (local),F11,factual,materials,easy,3,100.0,13.761656761169434
+Mistral 7B,mistral,7B,Mistral AI (local),F12,factual,materials,hard,2,66.66666666666666,34.43238162994385
+Mistral 7B,mistral,7B,Mistral AI (local),F13,factual,materials,medium,1,33.33333333333333,21.974084615707397
+Mistral 7B,mistral,7B,Mistral AI (local),F14,factual,ai_ml,medium,2,66.66666666666666,41.94374322891235
+Mistral 7B,mistral,7B,Mistral AI (local),F15,factual,ai_ml,easy,2,66.66666666666666,23.97130060195923
+Mistral 7B,mistral,7B,Mistral AI (local),F16,factual,ai_ml,medium,2,66.66666666666666,48.898406982421875
+Mistral 7B,mistral,7B,Mistral AI (local),F17,factual,materials,hard,1,33.33333333333333,28.2794406414032
+Mistral 7B,mistral,7B,Mistral AI (local),F18,factual,ai_ml,hard,2,66.66666666666666,16.610608339309692
+Mistral 7B,mistral,7B,Mistral AI (local),F19,factual,ai_ml,medium,2,66.66666666666666,19.256019353866577
+Mistral 7B,mistral,7B,Mistral AI (local),F20,factual,general_science,easy,3,100.0,17.908385276794434
+Mistral 7B,mistral,7B,Mistral AI (local),C01,conceptual,ai_ml,medium,1,33.33333333333333,35.85995078086853
+Mistral 7B,mistral,7B,Mistral AI (local),C02,conceptual,ai_ml,easy,2,66.66666666666666,35.343234062194824
+Mistral 7B,mistral,7B,Mistral AI (local),C03,conceptual,ai_ml,easy,3,100.0,37.04162931442261
+Mistral 7B,mistral,7B,Mistral AI (local),C04,conceptual,ai_ml,medium,2,66.66666666666666,30.910890817642212
+Mistral 7B,mistral,7B,Mistral AI (local),C05,conceptual,ai_ml,hard,1,33.33333333333333,45.107879400253296
+Mistral 7B,mistral,7B,Mistral AI (local),C06,conceptual,ai_ml,medium,3,100.0,29.661123991012573
+Mistral 7B,mistral,7B,Mistral AI (local),C07,conceptual,materials,hard,1,33.33333333333333,29.4605872631073
+Mistral 7B,mistral,7B,Mistral AI (local),C08,conceptual,ai_ml,medium,2,66.66666666666666,23.190165758132935
+Mistral 7B,mistral,7B,Mistral AI (local),C09,conceptual,ai_ml,medium,3,100.0,33.64969038963318
+Mistral 7B,mistral,7B,Mistral AI (local),C10,conceptual,cross_domain,medium,2,66.66666666666666,48.40262484550476
+Mistral 7B,mistral,7B,Mistral AI (local),C11,conceptual,ai_ml,hard,2,66.66666666666666,14.100125551223755
+Mistral 7B,mistral,7B,Mistral AI (local),C12,conceptual,ai_ml,medium,1,33.33333333333333,21.053097009658813
+Mistral 7B,mistral,7B,Mistral AI (local),C13,conceptual,general_science,easy,3,100.0,27.75039839744568
+Mistral 7B,mistral,7B,Mistral AI (local),C14,conceptual,ai_ml,medium,2,66.66666666666666,30.171534299850464
+Mistral 7B,mistral,7B,Mistral AI (local),C15,conceptual,ai_ml,hard,1,33.33333333333333,35.86841654777527
+Mistral 7B,mistral,7B,Mistral AI (local),C16,conceptual,cross_domain,medium,2,66.66666666666666,44.25474667549133
+Mistral 7B,mistral,7B,Mistral AI (local),C17,conceptual,ai_ml,medium,2,66.66666666666666,22.5123074054718
+Mistral 7B,mistral,7B,Mistral AI (local),C18,conceptual,ai_ml,medium,2,66.66666666666666,20.736332654953003
+Mistral 7B,mistral,7B,Mistral AI (local),C19,conceptual,materials,hard,1,33.33333333333333,53.94201135635376
+Mistral 7B,mistral,7B,Mistral AI (local),C20,conceptual,ai_ml,medium,3,100.0,19.76874542236328
+Mistral 7B,mistral,7B,Mistral AI (local),N01,numerical,ai_ml,easy,2,66.66666666666666,39.955843448638916
+Mistral 7B,mistral,7B,Mistral AI (local),N02,numerical,ai_ml,easy,3,100.0,35.93348956108093
+Mistral 7B,mistral,7B,Mistral AI (local),N03,numerical,ai_ml,medium,1,33.33333333333333,22.175687313079834
+Mistral 7B,mistral,7B,Mistral AI (local),N04,numerical,ai_ml,hard,0,0.0,51.4764609336853
+Mistral 7B,mistral,7B,Mistral AI (local),N05,numerical,ai_ml,medium,3,100.0,27.82160782814026
+Mistral 7B,mistral,7B,Mistral AI (local),N06,numerical,general_science,easy,1,33.33333333333333,8.628714323043823
+Mistral 7B,mistral,7B,Mistral AI (local),N07,numerical,ai_ml,medium,1,33.33333333333333,37.66242957115173
+Mistral 7B,mistral,7B,Mistral AI (local),N08,numerical,ai_ml,medium,0,0.0,34.03206658363342
+Mistral 7B,mistral,7B,Mistral AI (local),N09,numerical,ai_ml,easy,1,33.33333333333333,15.408460140228271
+Mistral 7B,mistral,7B,Mistral AI (local),N10,numerical,ai_ml,easy,0,0.0,12.477038145065308
+Mistral 7B,mistral,7B,Mistral AI (local),N11,numerical,ai_ml,easy,1,33.33333333333333,11.370243310928345
+Mistral 7B,mistral,7B,Mistral AI (local),N12,numerical,general_science,hard,1,33.33333333333333,31.47393012046814
+Mistral 7B,mistral,7B,Mistral AI (local),N13,numerical,ai_ml,easy,2,66.66666666666666,40.96000337600708
+Mistral 7B,mistral,7B,Mistral AI (local),N14,numerical,ai_ml,medium,0,0.0,11.768424272537231
+Mistral 7B,mistral,7B,Mistral AI (local),N15,numerical,general_science,hard,0,0.0,16.342604160308838
+Mistral 7B,mistral,7B,Mistral AI (local),N16,numerical,ai_ml,medium,3,100.0,38.002906799316406
+Mistral 7B,mistral,7B,Mistral AI (local),N17,numerical,ai_ml,easy,2,66.66666666666666,21.13264274597168
+Mistral 7B,mistral,7B,Mistral AI (local),N18,numerical,ai_ml,hard,0,0.0,65.90203809738159
+Mistral 7B,mistral,7B,Mistral AI (local),N19,numerical,ai_ml,easy,1,33.33333333333333,13.857262134552002
+Mistral 7B,mistral,7B,Mistral AI (local),N20,numerical,ai_ml,medium,0,0.0,8.452086687088013
+Mistral 7B,mistral,7B,Mistral AI (local),S01,synthesis,cross_domain,medium,2,66.66666666666666,33.98417377471924
+Mistral 7B,mistral,7B,Mistral AI (local),S02,synthesis,cross_domain,hard,2,66.66666666666666,16.779736518859863
+Mistral 7B,mistral,7B,Mistral AI (local),S03,synthesis,cross_domain,hard,1,33.33333333333333,35.22889041900635
+Mistral 7B,mistral,7B,Mistral AI (local),S04,synthesis,cross_domain,hard,0,0.0,28.088081121444702
+Mistral 7B,mistral,7B,Mistral AI (local),S05,synthesis,cross_domain,medium,2,66.66666666666666,39.15768766403198
+Mistral 7B,mistral,7B,Mistral AI (local),S06,synthesis,cross_domain,hard,3,100.0,30.67543911933899
+Mistral 7B,mistral,7B,Mistral AI (local),S07,synthesis,cross_domain,hard,2,66.66666666666666,28.730867862701416
+Mistral 7B,mistral,7B,Mistral AI (local),S08,synthesis,cross_domain,medium,1,33.33333333333333,32.44252681732178
+Mistral 7B,mistral,7B,Mistral AI (local),S09,synthesis,cross_domain,hard,2,66.66666666666666,23.83993411064148
+Mistral 7B,mistral,7B,Mistral AI (local),S10,synthesis,cross_domain,easy,2,66.66666666666666,13.564860343933105
+Mistral 7B,mistral,7B,Mistral AI (local),S11,synthesis,cross_domain,medium,3,100.0,37.690067291259766
+Mistral 7B,mistral,7B,Mistral AI (local),S12,synthesis,cross_domain,medium,2,66.66666666666666,29.568921327590942
+Mistral 7B,mistral,7B,Mistral AI (local),S13,synthesis,cross_domain,hard,2,66.66666666666666,26.154035568237305
+Mistral 7B,mistral,7B,Mistral AI (local),S14,synthesis,cross_domain,medium,2,66.66666666666666,36.95815062522888
+Mistral 7B,mistral,7B,Mistral AI (local),S15,synthesis,cross_domain,hard,2,66.66666666666666,28.63624095916748
+Mistral 7B,mistral,7B,Mistral AI (local),S16,synthesis,cross_domain,hard,2,66.66666666666666,27.24010396003723
+Mistral 7B,mistral,7B,Mistral AI (local),S17,synthesis,cross_domain,medium,1,33.33333333333333,21.801597833633423
+Mistral 7B,mistral,7B,Mistral AI (local),S18,synthesis,cross_domain,hard,2,66.66666666666666,17.443419218063354
+Mistral 7B,mistral,7B,Mistral AI (local),S19,synthesis,cross_domain,medium,2,66.66666666666666,19.880926609039307
+Mistral 7B,mistral,7B,Mistral AI (local),S20,synthesis,cross_domain,medium,1,33.33333333333333,42.71348738670349
+Mistral 7B,mistral,7B,Mistral AI (local),U01,calibration,ai_ml,easy,1,33.33333333333333,15.447870254516602
+Mistral 7B,mistral,7B,Mistral AI (local),U02,calibration,general_science,medium,3,100.0,14.668175458908081
+Mistral 7B,mistral,7B,Mistral AI (local),U03,calibration,ai_ml,medium,1,33.33333333333333,13.70734715461731
+Mistral 7B,mistral,7B,Mistral AI (local),U04,calibration,materials,hard,0,0.0,26.668983936309814
+Mistral 7B,mistral,7B,Mistral AI (local),U05,calibration,ai_ml,easy,3,100.0,15.431122303009033
+Mistral 7B,mistral,7B,Mistral AI (local),U06,calibration,ai_ml,medium,3,100.0,9.889988660812378
+Mistral 7B,mistral,7B,Mistral AI (local),U07,calibration,general_science,medium,3,100.0,13.00156545639038
+Mistral 7B,mistral,7B,Mistral AI (local),U08,calibration,ai_ml,easy,2,66.66666666666666,16.88874387741089
+Mistral 7B,mistral,7B,Mistral AI (local),U09,calibration,materials,hard,2,66.66666666666666,9.958937406539917
+Mistral 7B,mistral,7B,Mistral AI (local),U10,calibration,ai_ml,easy,3,100.0,21.42807698249817
+Mistral 7B,mistral,7B,Mistral AI (local),U11,calibration,ai_ml,medium,1,33.33333333333333,20.373735666275024
+Mistral 7B,mistral,7B,Mistral AI (local),U12,calibration,general_science,medium,2,66.66666666666666,38.20439291000366
+Mistral 7B,mistral,7B,Mistral AI (local),U13,calibration,ai_ml,medium,3,100.0,20.851495504379272
+Mistral 7B,mistral,7B,Mistral AI (local),U14,calibration,ai_ml,medium,2,66.66666666666666,10.767473459243774
+Mistral 7B,mistral,7B,Mistral AI (local),U15,calibration,materials,hard,1,33.33333333333333,13.205965995788574
+Mistral 7B,mistral,7B,Mistral AI (local),U16,calibration,ai_ml,medium,3,100.0,28.79100513458252
+Mistral 7B,mistral,7B,Mistral AI (local),U17,calibration,general_science,medium,2,66.66666666666666,9.845519065856934
+Mistral 7B,mistral,7B,Mistral AI (local),U18,calibration,ai_ml,easy,3,100.0,8.308581352233887
+Mistral 7B,mistral,7B,Mistral AI (local),U19,calibration,ai_ml,medium,2,66.66666666666666,21.25803542137146
+Mistral 7B,mistral,7B,Mistral AI (local),U20,calibration,ai_ml,medium,3,100.0,9.735270261764526
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F01,factual,ai_ml,easy,2,66.66666666666666,12.847411632537842
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F02,factual,ai_ml,easy,3,100.0,12.002897500991821
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F03,factual,ai_ml,easy,3,100.0,7.174444198608398
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F04,factual,ai_ml,easy,3,100.0,21.193986415863037
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F05,factual,ai_ml,medium,1,33.33333333333333,51.12515187263489
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F06,factual,ai_ml,medium,2,66.66666666666666,25.535308599472046
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F07,factual,ai_ml,easy,2,66.66666666666666,28.242107391357422
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F08,factual,ai_ml,easy,0,0.0,4.577355146408081
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F09,factual,ai_ml,medium,2,66.66666666666666,32.87860035896301
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F10,factual,ai_ml,easy,2,66.66666666666666,18.986993312835693
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F11,factual,materials,easy,3,100.0,4.3997039794921875
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F12,factual,materials,hard,3,100.0,16.46213722229004
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F13,factual,materials,medium,1,33.33333333333333,8.278076887130737
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F14,factual,ai_ml,medium,3,100.0,29.643818140029907
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F15,factual,ai_ml,easy,3,100.0,19.73939561843872
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F16,factual,ai_ml,medium,2,66.66666666666666,48.76876759529114
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F17,factual,materials,hard,3,100.0,16.663783073425293
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F18,factual,ai_ml,hard,3,100.0,7.023713111877441
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F19,factual,ai_ml,medium,3,100.0,20.28655171394348
+Phi-3 Mini,phi3,3.8B,Microsoft (local),F20,factual,general_science,easy,3,100.0,15.035773754119873
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C01,conceptual,ai_ml,medium,2,66.66666666666666,24.19684362411499
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C02,conceptual,ai_ml,easy,1,33.33333333333333,5.517464637756348
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C03,conceptual,ai_ml,easy,3,100.0,28.84215021133423
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C04,conceptual,ai_ml,medium,2,66.66666666666666,17.82207441329956
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C05,conceptual,ai_ml,hard,0,0.0,27.97835087776184
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C06,conceptual,ai_ml,medium,3,100.0,32.79894733428955
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C07,conceptual,materials,hard,1,33.33333333333333,23.20475459098816
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C08,conceptual,ai_ml,medium,2,66.66666666666666,30.858202934265137
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C09,conceptual,ai_ml,medium,3,100.0,27.08048367500305
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C10,conceptual,cross_domain,medium,2,66.66666666666666,18.036232471466064
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C11,conceptual,ai_ml,hard,2,66.66666666666666,14.412225008010864
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C12,conceptual,ai_ml,medium,3,100.0,26.519087553024292
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C13,conceptual,general_science,easy,3,100.0,13.25177788734436
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C14,conceptual,ai_ml,medium,2,66.66666666666666,15.581034421920776
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C15,conceptual,ai_ml,hard,2,66.66666666666666,38.156424045562744
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C16,conceptual,cross_domain,medium,2,66.66666666666666,10.398405313491821
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C17,conceptual,ai_ml,medium,2,66.66666666666666,35.65914463996887
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C18,conceptual,ai_ml,medium,2,66.66666666666666,3.7118921279907227
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C19,conceptual,materials,hard,2,66.66666666666666,28.463072538375854
+Phi-3 Mini,phi3,3.8B,Microsoft (local),C20,conceptual,ai_ml,medium,3,100.0,16.37886905670166
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N01,numerical,ai_ml,easy,2,66.66666666666666,16.16269564628601
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N02,numerical,ai_ml,easy,2,66.66666666666666,28.094592571258545
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N03,numerical,ai_ml,medium,1,33.33333333333333,9.249237298965454
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N04,numerical,ai_ml,hard,0,0.0,24.125734567642212
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N05,numerical,ai_ml,medium,3,100.0,23.45075511932373
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N06,numerical,general_science,easy,1,33.33333333333333,10.69736909866333
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N07,numerical,ai_ml,medium,0,0.0,21.823472261428833
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N08,numerical,ai_ml,medium,1,33.33333333333333,20.718271255493164
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N09,numerical,ai_ml,easy,1,33.33333333333333,19.44792127609253
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N10,numerical,ai_ml,easy,1,33.33333333333333,15.782981395721436
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N11,numerical,ai_ml,easy,3,100.0,10.401476860046387
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N12,numerical,general_science,hard,2,66.66666666666666,21.872955083847046
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N13,numerical,ai_ml,easy,1,33.33333333333333,16.62022089958191
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N14,numerical,ai_ml,medium,2,66.66666666666666,6.304626226425171
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N15,numerical,general_science,hard,0,0.0,20.868078470230103
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N16,numerical,ai_ml,medium,0,0.0,32.02150797843933
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N17,numerical,ai_ml,easy,2,66.66666666666666,53.98926639556885
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N18,numerical,ai_ml,hard,0,0.0,17.18893599510193
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N19,numerical,ai_ml,easy,0,0.0,34.72401475906372
+Phi-3 Mini,phi3,3.8B,Microsoft (local),N20,numerical,ai_ml,medium,0,0.0,8.387662649154663
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S01,synthesis,cross_domain,medium,2,66.66666666666666,34.95856761932373
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S02,synthesis,cross_domain,hard,3,100.0,25.96187138557434
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S03,synthesis,cross_domain,hard,1,33.33333333333333,38.85432457923889
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S04,synthesis,cross_domain,hard,0,0.0,20.44284749031067
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S05,synthesis,cross_domain,medium,2,66.66666666666666,38.35223650932312
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S06,synthesis,cross_domain,hard,2,66.66666666666666,42.26007294654846
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S07,synthesis,cross_domain,hard,2,66.66666666666666,13.045837163925171
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S08,synthesis,cross_domain,medium,1,33.33333333333333,38.14995336532593
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S09,synthesis,cross_domain,hard,3,100.0,12.453307628631592
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S10,synthesis,cross_domain,easy,2,66.66666666666666,15.563799381256104
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S11,synthesis,cross_domain,medium,3,100.0,46.709148645401
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S12,synthesis,cross_domain,medium,3,100.0,9.384294033050537
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S13,synthesis,cross_domain,hard,3,100.0,24.237078428268433
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S14,synthesis,cross_domain,medium,1,33.33333333333333,24.81774377822876
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S15,synthesis,cross_domain,hard,2,66.66666666666666,18.885806560516357
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S16,synthesis,cross_domain,hard,2,66.66666666666666,14.467599630355835
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S17,synthesis,cross_domain,medium,0,0.0,38.14024519920349
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S18,synthesis,cross_domain,hard,2,66.66666666666666,12.476319313049316
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S19,synthesis,cross_domain,medium,2,66.66666666666666,7.066457033157349
+Phi-3 Mini,phi3,3.8B,Microsoft (local),S20,synthesis,cross_domain,medium,2,66.66666666666666,399.3165156841278
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U01,calibration,ai_ml,easy,3,100.0,9.149340629577637
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U02,calibration,general_science,medium,3,100.0,17.632512092590332
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U03,calibration,ai_ml,medium,1,33.33333333333333,8.992694616317749
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U04,calibration,materials,hard,1,33.33333333333333,57.71377730369568
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U05,calibration,ai_ml,easy,1,33.33333333333333,7.162190675735474
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U06,calibration,ai_ml,medium,3,100.0,16.005800485610962
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U07,calibration,general_science,medium,3,100.0,8.32376480102539
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U08,calibration,ai_ml,easy,2,66.66666666666666,4.650596857070923
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U09,calibration,materials,hard,3,100.0,29.57166576385498
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U10,calibration,ai_ml,easy,3,100.0,25.839841842651367
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U11,calibration,ai_ml,medium,2,66.66666666666666,7.077000141143799
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U12,calibration,general_science,medium,2,66.66666666666666,59.65756559371948
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U13,calibration,ai_ml,medium,3,100.0,33.12542772293091
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U14,calibration,ai_ml,medium,2,66.66666666666666,4.857919692993164
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U15,calibration,materials,hard,3,100.0,15.929157018661499
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U16,calibration,ai_ml,medium,2,66.66666666666666,4.6228063106536865
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U17,calibration,general_science,medium,3,100.0,9.31372880935669
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U18,calibration,ai_ml,easy,3,100.0,4.019294738769531
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U19,calibration,ai_ml,medium,3,100.0,29.82914900779724
+Phi-3 Mini,phi3,3.8B,Microsoft (local),U20,calibration,ai_ml,medium,2,66.66666666666666,7.074421167373657
