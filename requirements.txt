@@ -1,6 +1,9 @@
+google-genai
+ollama
 streamlit
 pandas
 matplotlib
 seaborn
+tqdm
 python-dotenv
 numpy
